@@ -45,6 +45,6 @@ TableOfContents.prototype.bindScroll = function(a, title) {
   });
 };
 
-// 
+// to initialize a new table of contents on a page, specify the page's wrapper and the table of contents's wrapper
 var t = new TableOfContents(document.querySelector(".container"));
 t.appendTo(document.querySelector("#table-of-contents"));
